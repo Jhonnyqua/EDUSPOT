@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EduSpot - Mis Reservas</title>
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Mis Reservas</h1>
+        <div id="reservations-container" class="reservations-grid">
+            <!-- Aquí se mostrarán las reservas -->
+        </div>
+        <a href="../pages/dashboard.html" class="btn">Volver al Dashboard</a>
+    </div>
+    <script src="../js/script.js"></script>
+    <script>
+        // Llamar a la función para mostrar reservas cuando se cargue la página
+        document.addEventListener("DOMContentLoaded", function () {
+            mostrarReservas();
+        });
+    </script>
+</body>
+</html>
